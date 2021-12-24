@@ -1,0 +1,10 @@
+server:
+  port: ${SERVER_PORT:4444}
+temporal:
+  grpc:
+    url: localhost:7233
+  http:
+    secure: false
+spring:
+  main:
+    allow-bean-definition-overriding: true
